@@ -1,0 +1,35 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial, sans-serif;
+    transition: background-color 0.3s color 0.3s;
+}
+
+.dark {
+    background-color: black;
+    color: #ffff;
+}
+
+
+.light {
+    background-color: white;
+    color: black;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+#themeToggle {
+    margin: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+
