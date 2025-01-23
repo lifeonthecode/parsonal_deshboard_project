@@ -13,7 +13,7 @@ const getUserName = () => {
     let name = localStorage.getItem('name');
     if (!name) {
         name = prompt('What is your name?');
-        localStorage.setItem('name');
+        localStorage.setItem('name', name);
     }
 
     greeting.textContent = `Hello, ${name}`;
